@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header i {
+    font-size: 1.6rem;
+    color: rgb(113, 118, 142);
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.pesquisa input {
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.pesquisa i {
+    color: rgb(219, 0, 22);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1pt solid #ccc;
+}
+td{
+    padding: 10px 0px;
+}
+
+.box-delivery{
+    display: none;
+}
